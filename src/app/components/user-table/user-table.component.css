@@ -1,0 +1,36 @@
+table {
+    width: 95%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 0.75rem 1rem;
+    border: 1px solid #dee2e6;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f3f5;
+    cursor: pointer;
+  }
+  
+  input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: 0.3rem;
+    outline: none;
+  }
+  
+  input:focus {
+    background-color: #e9f5ff;
+  }
+  

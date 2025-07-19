@@ -1,0 +1,15 @@
+<table>
+    <thead>
+      <tr>
+        <th *ngFor="let header of tableHeaders">{{ header }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users" (click)="onRowClick(user)">
+        <td *ngFor="let key of tableHeaders">
+          <input [(ngModel)]="user[key]" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
